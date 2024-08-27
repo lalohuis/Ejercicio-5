@@ -1,0 +1,32 @@
+#carrusel {
+    width: 80%; 
+    height: 400px; 
+    margin left: 80px;
+    margin right: 80px;
+    text-align: center;
+    height: 100%; 
+    object-fit: cover; 
+    width: 100%; 
+}
+
+h2 {
+    font-size: 100px;
+}
+
+#carouselExample {
+    text-align: center;
+}
+
+
+.margen-lr-80 {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  @media (max-width: 768px) {
+    .margen-lr-80 {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+  
